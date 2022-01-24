@@ -1,11 +1,12 @@
-import './App.css';
-import Todos from './componenet/Todos'
-import Header from './componenet/Header'
+import Todos from "./componenet/Todos";
+import Header from "./componenet/Header";
+import Form from "./componenet/Form";
 function App() {
   return (
-    <div className='App'>
-    <Todos />
-    <Header />
+    <div className="App">
+      <Header />
+      <Todos />
+      <Form />
     </div>
   );
 }

@@ -1,0 +1,40 @@
+#btn {
+  color: rgb(236, 144, 144);
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  grid-column-gap: 3%;
+}
+.class1 {
+  background-color: red;
+  color: white;
+  font-size: 50px;
+  border-radius: 10px;
+}
+.class2 {
+  background-color: green;
+  color: white;
+  font-size: 50px;
+  border-radius: 10px;
+}
+.class3 {
+  background-color: blue;
+  color: white;
+  font-size: 50px;
+  border-radius: 10px;
+}
