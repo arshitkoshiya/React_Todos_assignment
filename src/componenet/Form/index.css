@@ -1,12 +1,13 @@
 .form {
-  border: 3px solid black;
+  outline: 5px solid black;
   width: fit-content;
-  height: fit-content;
   background-color: rgb(240, 108, 108);
-  justify-content: center;
+  margin: auto;
   color: white;
+  border-radius: 10px;
+  font-size :35px; 
+  padding: 20px;
 }
-
 
 #btn1 {
   color: rgb(236, 144, 144);
@@ -14,5 +15,8 @@
   background-color: black;
   border-radius: 10px;
   cursor: pointer;
-  
+}
+.btn1{
+    margin: auto;
+    width: fit-content;
 }
